@@ -33,7 +33,9 @@ int main(int argc, char *argv[])
 				continue;
 			}
 			std::vector<int> inter;
-			std::set_intersection(A[ii].begin(),
+			// Esta cosas pone la intersección en inter.
+			std::set_intersection(
+					A[ii].begin(),
 					A[ii].end(),
 					A[jj].begin(),
 					A[jj].end(),
