@@ -7,6 +7,9 @@ using clase = std::set<int>;
 
 int main(int argc, char *argv[])
 {
+	// Las letras fueron reemplazadas por su número de orden por -1
+	// c -> -3
+
 	std::vector<std::set<int>> A=
 	{
 		{1,2,11,17,3,4,8,5,12,6,7,15,-1},

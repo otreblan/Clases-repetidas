@@ -1,1 +1,7 @@
 # Repeticiones
+
+```
+cmake .
+make
+./clases
+```
